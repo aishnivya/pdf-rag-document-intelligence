@@ -1,0 +1,12 @@
+# API keys and environment variables
+.env
+
+# Python virtual environment
+.venv/
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# Streamlit secrets
+.streamlit/secrets.toml
