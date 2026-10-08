@@ -22,10 +22,10 @@ exec(compile(ast.Module(body=[function], type_ignores=[]), "app.py", "exec"), na
 
 # Test the function with sample text
 sample_text = (
-    "The Mastersizer 3000+ measures particle size using laser diffraction. "
-    "Large particles scatter light at small angles. "
-    "Small particles scatter light at large angles. "
-    "Mie theory is used to calculate particle size."
+    "Artificial intelligence is transforming business operations. "
+    "Machine learning enables systems to identify patterns in data. "
+    "Natural language processing helps computers understand human language. "
+    "Retrieval-Augmented Generation combines information retrieval with text generation."
 )
 
 chunks = namespace["split_text_into_chunks"](
